@@ -1,7 +1,7 @@
 # 👋 Hi, I'm LuHao
 ### Welcome to my GitHub profile!
 
-- 🔬 Researcher in semiconductor materials (VO₂, ZnO, Ga₂O₃...)
+- 🔬 Researcher in semiconductor materials (VO₂, ZnO, Ga₂O₃...) and silicon anode materials
 - 💻 Passionate about Condensed Matter Physics, Experimental Physics, and Materials Science
 
 ### 🌍 Find me here:
