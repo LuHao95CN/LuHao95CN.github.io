@@ -1,4 +1,5 @@
 # 👋 Hi, I'm LuHao
+<img src=""/assets/images/selfpic.jpg"" width="200" align="right">
 
 
 - 🔬 Researcher in semiconductor materials (VO₂, ZnO, Ga₂O₃...) and silicon anode materials
