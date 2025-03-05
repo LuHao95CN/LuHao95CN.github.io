@@ -1,12 +1,25 @@
-# 👋 Hi, I'm LuHao
-
-
-- 🔬 Researcher in semiconductor materials (VO₂, ZnO, Ga₂O₃...) and silicon anode materials
-- 💻 Passionate about Condensed Matter Physics, Experimental Physics, and Materials Science
-
-### 🌍 Find me here:
-[![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?style=flat&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Hao-Lu-67/research)
-📫 **Email:** [hao.lu@physik.uni-giessen.de](mailto:hao.lu@physik.uni-giessen.de) | [hao__hubu@foxmail.com](mailto:hao__hubu@foxmail.com)
+<table>
+  <tr>
+    <td><img src="assets/assets/LuHao.jpg" width="200" style="border-radius: 10px;"></td>
+    <td>
+      <h1>👋 Hi, I'm LuHao</h1>
+      <ul>
+        <li>🔬 Researcher in semiconductor materials (VO₂, ZnO, Ga₂O₃...) and silicon anode materials</li>
+        <li>💻 Passionate about Condensed Matter Physics, Experimental Physics, and Materials Science</li>
+      </ul>
+      <h3>🌍 Find me here:</h3>
+      <p>
+        <a href="https://www.researchgate.net/profile/Hao-Lu-67/research">
+          <img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=flat&logo=researchgate&logoColor=white">
+        </a>
+        <br>
+        📫 <strong>Email:</strong> 
+        <a href="mailto:hao.lu@physik.uni-giessen.de">hao.lu@physik.uni-giessen.de</a> | 
+        <a href="mailto:hao__hubu@foxmail.com">hao__hubu@foxmail.com</a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ### 🚀 Featured Publications
 - 📝 **Raman scattering of TiₓV₁₋ₓO₂ thin films on (110) rutile TiO₂**  
