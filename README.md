@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <td><img src="assets/assets/selfpic.jpg" width="200" style="border-radius: 10px;"></td>
+    <td><img src="assets/assets/LuHao.jpg" width="200" style="border-radius: 10px;"></td>
     <td>
       <h1>👋 Hi, I'm LuHao</h1>
       <ul>
