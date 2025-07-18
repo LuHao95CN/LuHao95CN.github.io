@@ -53,8 +53,7 @@
   *Qile Wang, Jian Chen, Hao Lu, Yunbin He*  
   [Publication Link](https://www.researchgate.net/publication/330164050_Structures_compositions_and_optical_properties_of_ZnCr2O4_films_grown_epitaxially_on_c-sapphire_by_pulsed_laser_deposition?_sg%5B0%5D=Lcjt7BK1n9c6KuYfZUdtR7SGv8Hsjg1PSTtm_QAG7RxhRVlcEp42975Z0syHeCuUknCRpZ_FyiVsupopY3zsnJP6w_P3kw-s4ojBtAeB.CjMinVrtD_1pjI3P8zIcwFKX2TPI9oZxfX5biAwcfXxpg1JhqI_lImRqE3RFweFmGv4lv7jHRjQwZyUcCi4DUw&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoicHJvZmlsZSIsInByZXZpb3VzUGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19)
 
-### 📊 My GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=LuHao95cn&show_icons=true&theme=radical)
 
-**Skills:** Physical vapor deposition, micro- and nanostructure research, semiconductor materials, MEMS fabrication, photolithography, and coating technologies.
+**Skills:** _Physical vapor deposition, micro- and nanostructure research, semiconductor materials, MEMS fabrication, photolithography, and coating technologies._
+
 
