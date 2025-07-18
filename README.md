@@ -53,7 +53,7 @@
   *Qile Wang, Jian Chen, Hao Lu, Yunbin He*  
   [Publication Link](https://www.researchgate.net/publication/330164050_Structures_compositions_and_optical_properties_of_ZnCr2O4_films_grown_epitaxially_on_c-sapphire_by_pulsed_laser_deposition?_sg%5B0%5D=Lcjt7BK1n9c6KuYfZUdtR7SGv8Hsjg1PSTtm_QAG7RxhRVlcEp42975Z0syHeCuUknCRpZ_FyiVsupopY3zsnJP6w_P3kw-s4ojBtAeB.CjMinVrtD_1pjI3P8zIcwFKX2TPI9oZxfX5biAwcfXxpg1JhqI_lImRqE3RFweFmGv4lv7jHRjQwZyUcCi4DUw&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoicHJvZmlsZSIsInByZXZpb3VzUGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19)
 
-  - 📝 **The Influence of Oxygen Pressure on the Structure, Optoelectronic Properties, and MIT Characters of VO₂ Thin Films**  
+- 📝 **The Influence of Oxygen Pressure on the Structure, Optoelectronic Properties, and MIT Characters of VO₂ Thin Films**  
   *Material Sciences*, 2018, 8(5): 573–581  
   *Tao Xin, Lu Hao, Li Pai, Lu Yinmei, He Yunbin*  
   [https://doi.org/10.12677/MS.2018.85067](https://doi.org/10.12677/MS.2018.85067)
