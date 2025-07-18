@@ -90,6 +90,6 @@
 
 
 
-**Skills:** _Physical vapor deposition, micro- and nanostructure research, semiconductor materials, MEMS fabrication, photolithography, and coating technologies._
+**Skills: _Physical vapor deposition, micro- and nanostructure research, semiconductor materials, MEMS fabrication, photolithography, and coating technologies._**
 
 
