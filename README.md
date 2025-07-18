@@ -57,7 +57,7 @@
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=LuHao95cn&show_icons=true&theme=radical)
 
 ### 🛠️ Technologies & Tools
-![Physical vapor deposition](https://img.shields.io/badge/XRD-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Physical vapor deposition](https://img.shields.io/badge/Physical vapor deposition-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Raman](https://img.shields.io/badge/Raman-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![XPS](https://img.shields.io/badge/XPS-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![SEM](https://img.shields.io/badge/SEM-FCC624?style=for-the-badge&logo=linux&logoColor=black)
