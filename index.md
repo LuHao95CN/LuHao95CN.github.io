@@ -12,15 +12,10 @@ Research focus: VO₂ and correlated oxides, thin films, metal–insulator trans
 
 ## 🔹 Explore My Work
 
-- **[Research](./tabs/research)**  
-  Understand mechanisms of phase transitions and electronic structure in functional oxides.
+- **[Research](/tabs/research/)**  
+- **[Publications](/tabs/publications/)**  
+- **[Contact](/tabs/contact/)**
 
-- **[Publications](./tabs/publications)**  
-  Curated list of my peer-reviewed work across VO₂, ZnO, Ga₂O₃, and Si anode materials.
-
-
-- **[Contact](./tabs/contact)**  
-  Reach out via email or connect on GitHub / Google Scholar.
 
 ---
 
