@@ -1,0 +1,29 @@
+---
+title: Welcome to My Research Space
+author: Lu Hao
+date: 2026-01-01 12:00:00 +0800
+categories: [General]
+tags: [Welcome]
+pin: true
+---
+
+# 👋 About Me
+I am a condensed-matter physicist specializing in **functional oxides**. My research is driven by the complex physics of **Metal–Insulator Transitions (MIT)**.
+
+---
+
+# 📸 Research Highlights
+| ![Lab Work](/assets/img/lab.jpg) | ![XRD Results](/assets/img/data.jpg) |
+|:---:|:---:|
+| *Our Sputtering System for VO₂ Growth* | *Latest XRD measurements on Ga₂O₃* |
+
+---
+
+# 📢 Recent News
+* **[Jan 2026]** Attending the APS March Meeting to present my work on $VO_2$ thin films.
+* **[Dec 2025]** Our latest paper on $Ga_2O_3$ bandgap engineering was accepted by *Applied Physics Letters*.
+
+---
+
+# 🔬 Current Focus
+Currently, I am investigating how structure-property relations influence the switching speed of $VO_2$ in nano-devices.
