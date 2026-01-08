@@ -1,5 +1,3 @@
----
-title: Research
----
-Content coming soon.
+# Research
 
+Content coming soon.
