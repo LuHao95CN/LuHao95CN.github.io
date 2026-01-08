@@ -12,10 +12,10 @@ Research focus: VO₂ and correlated oxides, thin films, metal–insulator trans
 
 ## 🔹 Explore My Work
 
-- [Research](/research/)
-- [Publications](/publications/)
-- [Contact](/contact/)
 
+- [Research]({{ '/research/' | relative_url }})
+- [Publications]({{ '/publications/' | relative_url }})
+- [Contact]({{ '/contact/' | relative_url }})
 
 ---
 
