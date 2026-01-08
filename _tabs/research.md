@@ -5,7 +5,6 @@ permalink: /tabs/research/
 order: 1
 ---
 
-# Research
 
 ## Research Interests
 
