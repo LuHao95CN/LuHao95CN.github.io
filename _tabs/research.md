@@ -2,6 +2,7 @@
 title: Research
 layout: page
 permalink: /tabs/research/
+order: 1
 ---
 
 # Research
