@@ -44,9 +44,9 @@ baseurl: ""
 # Plugins (Crucial for fixing build errors)
 plugins:
   - jekyll-paginate
-  - jekyll-theme-chirpy
-  - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-include-cache
 
 # ------------ Options below are recommended to keep as default ------------------
