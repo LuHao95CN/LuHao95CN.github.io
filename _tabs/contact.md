@@ -2,6 +2,7 @@
 title: Contact
 layout: page
 permalink: /tabs/contact/
+order: 3
 ---
 
 # Contact
