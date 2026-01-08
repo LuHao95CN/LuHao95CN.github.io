@@ -30,4 +30,4 @@ Research focus: VO₂ and correlated oxides, thin films, metal–insulator trans
 - **Bandgap Engineering** for functional applications  
 - **Li-battery Anode** materials research
 
-- ---
+---
