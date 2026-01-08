@@ -10,7 +10,7 @@ lang: en
 timezone: Europe/Berlin
 
 # SEO Settings
-title: Lu Hao
+title: Dr. Lu Hao
 tagline: Condensed-matter physicist
 description: >-
   Research focus: VO₂ and correlated oxides, thin films, metal–insulator transitions, structure–property relations.
@@ -23,7 +23,7 @@ github:
 
 social:
   name: Lu Hao
-  email: example@domain.com # Please change to your real email
+  email: hao.lu@uni-geissen.de, hao.lu.1995cn@gmail.com # Please change to your real email
   links:
     - https://github.com/LuHao95CN
 
@@ -33,7 +33,7 @@ social:
 cdn: "" 
 
 # Avatar path
-avatar: "/assets/LuHao.jpg.jpg"
+avatar: "/assets/assets/LuHao.jpg.jpg"
 
 toc: true
 
