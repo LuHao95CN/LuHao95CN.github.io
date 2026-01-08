@@ -1,5 +1,8 @@
 ---
 title: Contact
+permalink: /tabs/contact/
 ---
-Content coming soon.
 
+# Contact
+
+Content coming soon.
