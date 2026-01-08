@@ -2,6 +2,7 @@
 title: Publications
 layout: page
 permalink: /tabs/publications/
+order: 2
 ---
 
 # Publications
