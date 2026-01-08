@@ -47,6 +47,7 @@ plugins:
   - jekyll-theme-chirpy
   - jekyll-seo-tag
   - jekyll-archives
+  - - jekyll-include-cache
 
 # ------------ Options below are recommended to keep as default ------------------
 
