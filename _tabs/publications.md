@@ -5,7 +5,6 @@ permalink: /tabs/publications/
 order: 2
 ---
 
-# Publications
 
 ### Selected Publications
 
