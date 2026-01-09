@@ -10,7 +10,18 @@
 
 /* append your custom style below */
 
+/* Fix avatar cropping: show full face */
+.profile-wrapper {
+  width: 140px;
+  height: auto;
+}
+
 .profile-wrapper img {
+  width: 140px;
+  height: auto;
   border-radius: 0 !important;
-  object-fit: contain;
+
+  object-fit: contain !important;
+  object-position: center center !important;
+  background-color: transparent;
 }
