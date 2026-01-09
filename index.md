@@ -10,6 +10,13 @@ Research focus: VO₂ and correlated oxides, thin films, metal–insulator trans
 
 ---
 
+## 🔹 News
+
+- **[Jan 2026]** Testing GitHub Connector and updating the homepage!
+- **[Aug 2025]** Updated research focus on VO₂ and correlated oxides.
+
+---
+
 ## 🔹 Explore My Work
 
 - **[Research](/tabs/research/)**  
