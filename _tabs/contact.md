@@ -5,7 +5,6 @@ permalink: /tabs/contact/
 order: 3
 ---
 
-# Contact
 
 You can reach me via:
 
