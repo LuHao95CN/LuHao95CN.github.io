@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 ---
 
 # Hi, I'm LuHao
