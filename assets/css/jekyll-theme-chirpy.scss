@@ -9,3 +9,8 @@
 ';
 
 /* append your custom style below */
+
+.profile-wrapper img {
+  border-radius: 0 !important;
+  object-fit: contain;
+}
