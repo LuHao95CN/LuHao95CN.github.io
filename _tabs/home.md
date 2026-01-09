@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /
+permalink: /home/
 ---
 
 # Hi, I'm LuHao
