@@ -24,6 +24,117 @@ This closes an important chapter. I am now exploring postdoctoral and industry o
 
 ## 🔹 News
 
+- **[Jan 2026]** I am sharing this Python script that I use to automate impedance measurements during temperature-dependent experiments. The script reads the real-time temperature directly from the instrument software using OCR (Tesseract), monitors temperature stability, and triggers mouse clicks at predefined intervals via pyautogui. Image preprocessing is applied to improve OCR reliability, and all measurement events are logged with timestamps and temperature values. This workflow allows long-duration, unattended measurements while ensuring that data acquisition is synchronized with stable temperature conditions.
+
+  ```python
+  import pyautogui
+  import pytesseract
+  import time
+  from PIL import Image, ImageEnhance, ImageFilter
+  import os
+  from datetime import datetime
+  import signal
+
+  # Path to Tesseract OCR
+  pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
+  # Screen coordinates and region size
+  TEMP_COORDS = (120, 160)
+  REGION_SIZE = (70, 40)
+  CLICK_POSITION = (917, 544)
+
+  # Path to log file
+  LOG_FILE_PATH = os.path.join(os.path.expanduser("~"), "Desktop", "click_log.txt")
+
+  # Click every 5 minutes, stop if temperature unchanged for 3 minutes
+  CLICK_INTERVAL = 5 * 60
+  NO_CHANGE_TIMEOUT = 3 * 60
+  click_count = 0
+  click_records = []
+  last_temperature = None
+  last_temperature_change_time = time.time()
+
+  def preprocess_image(image):
+      image = image.convert('L')
+      enhancer = ImageEnhance.Contrast(image)
+      image = enhancer.enhance(3.0)
+      image = image.filter(ImageFilter.SHARPEN)
+      image = image.filter(ImageFilter.EDGE_ENHANCE_MORE)
+      return image
+
+  def correct_temperature_format(temperature_str):
+      temperature_str = temperature_str.replace('O', '0').replace('l', '1').replace('I', '1')
+      temperature_str = temperature_str.replace('-', '-').strip()
+      is_negative = temperature_str.startswith('-')
+      temperature_str = ''.join(filter(lambda x: x.isdigit() or x == '.', temperature_str))
+      if is_negative and not temperature_str.startswith('-'):
+          temperature_str = '-' + temperature_str
+      if '.' not in temperature_str and len(temperature_str) > 1:
+          temperature_str = temperature_str[:-1] + '.' + temperature_str[-1]
+      return temperature_str.strip()
+
+  def read_temperature():
+      screenshot = pyautogui.screenshot(region=(TEMP_COORDS[0], TEMP_COORDS[1], REGION_SIZE[0], REGION_SIZE[1]))
+      screenshot = preprocess_image(screenshot)
+      temperature_str = pytesseract.image_to_string(screenshot, config="--psm 7 -c tessedit_char_whitelist=-0123456789.")
+      temperature_str = correct_temperature_format(temperature_str)
+      try:
+          return float(temperature_str)
+      except ValueError:
+          return None
+
+  def log_event(message):
+      with open(LOG_FILE_PATH, "a", encoding="utf-8") as log_file:
+          log_file.write(f"{message}\n")
+
+  def save_click_records():
+      with open(LOG_FILE_PATH, "w", encoding="utf-8") as log_file:
+          for record in click_records:
+              log_file.write(record + "\n")
+
+  def handle_exit(signum, frame):
+      print("Program terminated. Saving log...")
+      save_click_records()
+      exit(0)
+
+  def main():
+      global click_count, last_temperature, last_temperature_change_time
+      print("Monitoring started...")
+      start_time = time.time()
+      signal.signal(signal.SIGINT, handle_exit)
+      signal.signal(signal.SIGTERM, handle_exit)
+      while True:
+          current_temperature = read_temperature()
+          if current_temperature is not None:
+              print(f"Temperature: {current_temperature} C")
+              if last_temperature is not None and abs(current_temperature - last_temperature) > 0.01:
+                  last_temperature_change_time = time.time()
+              last_temperature = current_temperature
+          else:
+              print("Temperature read failed")
+          if time.time() - last_temperature_change_time > NO_CHANGE_TIMEOUT:
+              print("Temperature unchanged for 3 min. Stopping...")
+              log_event("Stopped due to no temperature change.")
+              break
+          elapsed_time = time.time() - start_time
+          if elapsed_time >= CLICK_INTERVAL:
+              click_count += 1
+              timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+              click_record = f"No.{click_count} | Time: {timestamp} | Temp: {current_temperature} C"
+              click_records.append(click_record)
+              print(f"{click_record}, Clicking...")
+              pyautogui.moveTo(CLICK_POSITION)
+              pyautogui.click()
+              start_time = time.time()
+          time.sleep(1)
+
+  if __name__ == "__main__":
+      try:
+          main()
+      finally:
+          save_click_records()
+  ```
+
 - **[Jan 2026]** I am sharing this Python script that I use for X-ray reflectivity (XRR) fitting of thin-film samples. The code is based on a Parratt-type reflectivity model and reads experimental XRR data from an .xy file. The reflectivity is normalized and fitted in logarithmic scale using scipy.optimize.curve_fit. By fitting the electron density, film thickness, and interface roughness, I extract key structural parameters of the film. This script represents my practical workflow for XRR analysis and is shared here for reference, reuse, and further adaptation.
 
   ```python
