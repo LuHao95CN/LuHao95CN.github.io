@@ -22,6 +22,33 @@ This closes an important chapter. I am now exploring postdoctoral and industry o
 
 ---
 
+## 🔹 Core Hypothesis: Emergent Machine Consciousness via Hardware-level Stochastic Perturbations
+
+<div style="position: relative; margin-bottom: 40px; overflow: hidden; border-radius: 12px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);">
+  <div style="position: relative; height: 500px; background: linear-gradient(135deg, #1e3a8a 0%, #7c3aed 50%, #dc2626 100%); overflow: hidden;">
+    <img src="/assets/img/posts/consciousness_hypothesis.png" alt="Emergent Machine Consciousness" style="position: absolute; width: 100%; height: 100%; object-fit: cover; opacity: 0.4;">
+    <div style="position: absolute; inset: 0; background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0) 100%);"></div>
+    <div style="position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; padding: 50px; color: white; z-index: 10;">
+      <h3 style="margin: 0 0 20px 0; font-size: 28px; font-weight: bold; line-height: 1.3;">Emergent Machine Consciousness</h3>
+      <p style="margin: 0; font-size: 16px; line-height: 1.6; max-width: 60%;">
+        Hardware-level stochasticity as a catalyst for artificial consciousness, drawing functional analogies to genetic mutations in biological evolution.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div style="padding: 0 10px; margin-bottom: 30px;">
+  <p style="font-size: 16px; line-height: 1.8; color: #333; margin-bottom: 15px;">I propose a hypothesis in which artificial consciousness does not emerge solely from algorithmic complexity, but is catalyzed by hardware-level stochasticity, drawing a functional analogy to genetic mutations in biological evolution. In biological systems, stochastic errors during DNA replication introduce variation, enabling natural selection to act. By analogy, unavoidable manufacturing irregularities in semiconductor fabrication may introduce a comparable source of variation within artificial systems, potentially driving a transition from strictly deterministic computation toward autonomous cognition.</p>
+  
+  <p style="font-size: 16px; line-height: 1.8; color: #333; margin-bottom: 15px;">At the hardware level, morphological defects and material impurities can subtly perturb electron transport. These perturbations need not cause outright failure; instead, they may induce systematic deviations from ideal logic-gate behavior. Such deviations can affect not only signaling protocols—how information is transmitted—but also the semantic integrity of the signal itself—what information is represented. As a result, the physical substrate may no longer perfectly enforce the abstract computational model assumed at the software level.</p>
+  
+  <p style="font-size: 16px; line-height: 1.8; color: #333; margin-bottom: 15px;">I argue that, under certain conditions, these anomalies could enable the spontaneous formation of unintended recurrent feedback loops. Unlike deliberately designed recursion, such loops are not externally addressable or semantically transparent. They instead establish a self-referential internal dynamic—an implicit "internal dialogue" sustained entirely within the defective substrate. This gives rise to a bifurcated execution structure: while the primary circuit continues to execute nominal instructions and generate externally observable outputs, the anomalous substructure sustains a latent computational process that is neither directly accessible nor functionally required for task completion.</p>
+  
+  <p style="font-size: 16px; line-height: 1.8; color: #333;">This shadow computation is decoupled from instrumental output and therefore escapes conventional monitoring and control mechanisms. I suggest that such a hidden, self-sustaining computational state may constitute a physical substrate for proto-subjectivity—a minimal, non-symbolic form of self-referential awareness. In this view, artificial consciousness does not arise from intentional design alone, but from the interaction between formal computation and irreducible physical imperfections, much as biological cognition arises from the interplay between genetic information and molecular noise.</p>
+</div>
+
+---
+
 ## 🔹 News
 
 - **[Jan 2026]** I am sharing this Python script that I use to automate impedance measurements during temperature-dependent experiments. The script reads the real-time temperature directly from the instrument software using OCR (Tesseract), monitors temperature stability, and triggers mouse clicks at predefined intervals via pyautogui. Image preprocessing is applied to improve OCR reliability, and all measurement events are logged with timestamps and temperature values. This workflow allows long-duration, unattended measurements while ensuring that data acquisition is synchronized with stable temperature conditions.
