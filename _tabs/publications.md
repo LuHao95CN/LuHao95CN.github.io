@@ -2,7 +2,7 @@
 title: Publications
 layout: page
 permalink: /tabs/publications/
-order: 3
+order: 2
 ---
 
 ## 📝 Journal Articles
