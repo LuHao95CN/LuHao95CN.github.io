@@ -13,11 +13,17 @@ I am grateful to my colleagues for the collaborative and stimulating research en
 
 This closes an important chapter. I am now exploring postdoctoral and industry opportunities where solid-state physics, spectroscopy, and data-driven analysis meet real-world applications.
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="/assets/img/phd/PhD1.jpg" alt="PhD Defense 1" style="width: 48%; border-radius: 8px;">
-  <img src="/assets/img/phd/PhD2.jpg" alt="PhD Defense 2" style="width: 48%; border-radius: 8px;">
-  <img src="/assets/img/phd/PhD3.jpg" alt="PhD Defense 3" style="width: 48%; border-radius: 8px;">
-  <img src="/assets/img/phd/PhD5.jpg" alt="PhD Defense 4" style="width: 48%; border-radius: 8px;">
+<div style="display: grid; grid-template-columns: 1.5fr 1fr; gap: 10px;">
+  <div style="display: flex; flex-direction: column; gap: 10px;">
+    <img src="/assets/img/phd/PhD1.jpg" alt="PhD Defense 1" style="width: 100%; border-radius: 8px;">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+      <img src="/assets/img/phd/PhD2.jpg" alt="PhD Defense 2" style="width: 100%; border-radius: 8px;">
+      <img src="/assets/img/phd/PhD5.jpg" alt="PhD Defense 4" style="width: 100%; border-radius: 8px;">
+    </div>
+  </div>
+  <div style="display: flex;">
+    <img src="/assets/img/phd/PhD3.jpg" alt="PhD Defense 3" style="width: 100%; border-radius: 8px; object-fit: cover;">
+  </div>
 </div>
 
 ---
