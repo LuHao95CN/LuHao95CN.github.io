@@ -13,4 +13,5 @@ order: 2
 - Thin film growth and characterization (XRD, Raman, SEM, XPS)  
 - Bandgap engineering and optical/electronic property tuning  
 - MEMS (Micro-Electro-Mechanical Systems)  
+- Brain-Computer Interface (BCI)  
 
