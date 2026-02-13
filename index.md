@@ -2,6 +2,8 @@
 layout: page
 permalink: /
 tabs: false
+hide: true
+sidebar: false
 ---
 
 
