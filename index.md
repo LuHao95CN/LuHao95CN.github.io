@@ -55,7 +55,7 @@ This closes an important chapter. I am now exploring postdoctoral and industry o
 
 ---
 
-## 🔹 News
+## 🔹 Automated testing scripts written during my PhD to simplify repetitive measurements.
 
 - **[Jan 2026]** I am sharing this Python script that I use to automate impedance measurements during temperature-dependent experiments. The script reads the real-time temperature directly from the instrument software using OCR (Tesseract), monitors temperature stability, and triggers mouse clicks at predefined intervals via pyautogui. Image preprocessing is applied to improve OCR reliability, and all measurement events are logged with timestamps and temperature values. This workflow allows long-duration, unattended measurements while ensuring that data acquisition is synchronized with stable temperature conditions.
 
