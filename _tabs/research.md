@@ -12,4 +12,5 @@ order: 2
 - Metal–insulator transitions and electronic correlations  
 - Thin film growth and characterization (XRD, Raman, SEM, XPS)  
 - Bandgap engineering and optical/electronic property tuning  
+- MEMS (Micro-Electro-Mechanical Systems)  
 
