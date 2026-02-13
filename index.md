@@ -1,7 +1,7 @@
 ---
-layout: home
-
+layout: page
 permalink: /
+tabs: false
 ---
 
 
