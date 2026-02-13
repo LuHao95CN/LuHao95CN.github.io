@@ -3,7 +3,7 @@ layout: page
 permalink: /
 ---
 
-# Hi, I'm LuHao
+
 
 **[Jan 2026]** My thesis, **“Strain Engineering and Buffer Layer Design in VO₂ Thin Film Structures: From Phase Transition Mechanisms to Smart Window Applications”**, has been successfully defended. 🎓
 
