@@ -4,6 +4,7 @@ permalink: /
 tabs: false
 hide: true
 sidebar: false
+math: true
 ---
 
 
