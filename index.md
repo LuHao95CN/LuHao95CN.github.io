@@ -259,7 +259,6 @@ This closes an important chapter. I am now exploring postdoctoral and industry o
 
 Sharing the basic principles of fitting optical parameters after measuring VO₂ thin films using spectroscopic ellipsometry.
 
-下面是去掉公式编号（索引）后的整理版本，其余内容保持不变，便于直接粘贴使用。
 
 ### Spectroscopic Ellipsometry (SE)
 
