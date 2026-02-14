@@ -257,25 +257,4 @@ This closes an important chapter. I am now exploring postdoctoral and industry o
       print("Fitting failed:", e)
   ```
 
----
 
-## 🔹 Explore My Work
-
-- **[Research](/tabs/research/)**  
-  Mechanisms of phase transitions and electronic structure in functional oxides.
-
-- **[Publications](/tabs/publications/)**  
-  Peer-reviewed work across VO₂, ZnO, Ga₂O₃, and Si anode materials.
-
-- **[Contact](/tabs/contact/)**  
-  Reach me via email or GitHub / Google Scholar.
-
----
-
-## 🔹 Selected Highlights
-
-- **Metal–insulator transitions** in VO₂ and related oxides  
-- **Bandgap Engineering** for functional applications  
-- **Li-battery Anode** materials research
-
----
