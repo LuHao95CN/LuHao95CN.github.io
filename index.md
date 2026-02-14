@@ -1,13 +1,8 @@
 ---
-layout: page
+layout: home
 permalink: /
-tabs: false
-hide: true
-sidebar: false
 math: true
 ---
-
-
 
 **[Jan 2026]** My thesis, **“Strain Engineering and Buffer Layer Design in VO₂ Thin Film Structures: From Phase Transition Mechanisms to Smart Window Applications”**, has been successfully defended. 🎓
 
@@ -257,8 +252,6 @@ This closes an important chapter. I am now exploring postdoctoral and industry o
   except RuntimeError as e:
       print("Fitting failed:", e)
   ```
-
-
 
 ---
 
