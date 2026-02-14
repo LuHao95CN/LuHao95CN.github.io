@@ -36,7 +36,7 @@ cdn: ""
 avatar: "/assets/assets/LuHao.jpg"
 
 toc: true
-
+math: true
 paginate: 10
 
 baseurl: ""

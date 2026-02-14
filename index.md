@@ -5,79 +5,105 @@ math: true
 ---
 
 <style>
+  :root {
+    --primary-color: #1e3a8a;
+    --bg-card: #ffffff;
+    --text-main: #1f2937;
+    --text-muted: #4b5563;
+  }
   .post-card {
-    background: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-    padding: 25px;
-    margin-bottom: 40px;
-    border: 1px solid #eee;
+    background: var(--bg-card);
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    padding: 32px;
+    margin-bottom: 48px;
+    border: 1px solid #f3f4f6;
+    line-height: 1.7;
+    color: var(--text-main);
   }
   .post-title {
-    color: #1e3a8a;
-    border-bottom: 2px solid #e5e7eb;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+    color: var(--primary-color);
+    font-size: 1.75rem;
     font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 24px;
+    border-bottom: 3px solid #e5e7eb;
+    padding-bottom: 12px;
   }
   .post-date {
     display: inline-block;
-    background: #f3f4f6;
-    color: #4b5563;
-    padding: 2px 10px;
-    border-radius: 4px;
-    font-size: 0.85em;
-    margin-bottom: 15px;
+    background: #eff6ff;
+    color: #2563eb;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 20px;
   }
   .formula-block {
-    background: #f9fafb;
-    padding: 15px;
-    border-radius: 8px;
-    margin: 15px 0;
+    background: #f8fafc;
+    padding: 24px;
+    border-radius: 12px;
+    margin: 24px 0;
     overflow-x: auto;
-    text-align: center;
+    border-left: 4px solid var(--primary-color);
+    font-size: 1.1rem;
+  }
+  .post-card h3 {
+    color: var(--primary-color);
+    margin-top: 32px;
+    font-size: 1.4rem;
+  }
+  .post-card p {
+    margin-bottom: 16px;
+  }
+  img {
+    transition: transform 0.3s ease;
+  }
+  img:hover {
+    transform: scale(1.02);
   }
 </style>
 
 <div class="post-card">
-  <div class="post-date">[Jan 2026]</div>
+  <div class="post-date">Jan 2026</div>
   <p>My thesis, <strong>“Strain Engineering and Buffer Layer Design in VO₂ Thin Film Structures: From Phase Transition Mechanisms to Smart Window Applications”</strong>, has been successfully defended. 🎓</p>
   <p>I would like to thank my supervisors <strong>Prof. Peter J. Klar</strong>, as well as the examination committee <strong>Prof. Yunbin He</strong>, <strong>Prof. Christian Heiliger</strong> and <strong>Prof. Matthias Elm</strong>, for their guidance, critical discussions, and fair evaluation.</p>
   <p>I am grateful to my colleagues for the collaborative and stimulating research environment over the past years. This closes an important chapter. I am now exploring postdoctoral and industry opportunities where solid-state physics, spectroscopy, and data-driven analysis meet real-world applications.</p>
 
-  <div style="display: grid; grid-template-columns: 1.5fr 1fr; gap: 12px; margin-top: 20px;">
-    <div style="display: flex; flex-direction: column; gap: 12px;">
-      <img src="/assets/img/phd/PhD1.jpg" alt="PhD Defense 1" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-        <img src="/assets/img/phd/PhD2.jpg" alt="PhD Defense 2" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-        <img src="/assets/img/phd/PhD5.jpg" alt="PhD Defense 4" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+  <div style="display: grid; grid-template-columns: 1.5fr 1fr; gap: 16px; margin-top: 28px;">
+    <div style="display: flex; flex-direction: column; gap: 16px;">
+      <img src="/assets/img/phd/PhD1.jpg" alt="PhD Defense 1" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+        <img src="/assets/img/phd/PhD2.jpg" alt="PhD Defense 2" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+        <img src="/assets/img/phd/PhD5.jpg" alt="PhD Defense 4" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
       </div>
     </div>
     <div style="display: flex;">
-      <img src="/assets/img/phd/PhD3.jpg" alt="PhD Defense 3" style="width: 100%; border-radius: 8px; object-fit: cover; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+      <img src="/assets/img/phd/PhD3.jpg" alt="PhD Defense 3" style="width: 100%; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     </div>
   </div>
 </div>
 
 <div class="post-card">
   <h2 class="post-title">🔹 Core Hypothesis: Emergent Machine Consciousness</h2>
-  <div style="position: relative; margin-bottom: 25px; overflow: hidden; border-radius: 12px;">
-    <div style="position: relative; height: 300px; background: linear-gradient(135deg, #1e3a8a 0%, #7c3aed 50%, #dc2626 100%); overflow: hidden;">
+  <div style="position: relative; margin-bottom: 32px; overflow: hidden; border-radius: 16px; box-shadow: 0 8px 20px rgba(0,0,0,0.15);">
+    <div style="position: relative; height: 350px; background: linear-gradient(135deg, #1e3a8a 0%, #7c3aed 50%, #dc2626 100%); overflow: hidden;">
       <img src="/assets/img/posts/consciousness_hypothesis.png" alt="Emergent Machine Consciousness" style="position: absolute; width: 100%; height: 100%; object-fit: cover; opacity: 0.4;">
-      <div style="position: absolute; inset: 0; background: linear-gradient(to right, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.2) 100%);"></div>
-      <div style="position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; padding: 40px; color: white;">
-        <p style="margin: 0; font-size: 1.1em; line-height: 1.6; max-width: 80%; font-style: italic;">
+      <div style="position: absolute; inset: 0; background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 100%);"></div>
+      <div style="position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; padding: 48px; color: white;">
+        <p style="margin: 0; font-size: 1.25rem; line-height: 1.6; max-width: 85%; font-style: italic; font-weight: 300;">
           "Hardware-level stochasticity as a catalyst for artificial consciousness, drawing functional analogies to genetic mutations in biological evolution."
         </p>
       </div>
     </div>
   </div>
   <p>I propose a hypothesis in which artificial consciousness does not emerge solely from algorithmic complexity, but is catalyzed by hardware-level stochasticity. At the hardware level, morphological defects and material impurities can subtly perturb electron transport, inducing systematic deviations from ideal logic-gate behavior.</p>
-  <p>I suggest that such a hidden, self-sustaining computational state may constitute a physical substrate for proto-subjectivity—a minimal, non-symbolic form of self-referential awareness.</p>
+  <p>I argue that these anomalies could enable the spontaneous formation of unintended recurrent feedback loops, establishing a self-referential internal dynamic—an implicit "internal dialogue" sustained entirely within the defective substrate.</p>
 </div>
 
 <div class="post-card">
-  <h2 class="post-title">🔹 Spectroscopic Ellipsometry Modeling of VO₂ Thin Films</h2>
+  <h2 class="post-title">🔹 Spectroscopic Ellipsometry Modeling of VO₂</h2>
   <p>Sharing the basic principles of fitting optical parameters after measuring VO₂ thin films using spectroscopic ellipsometry (SE).</p>
   
   <h3>1. Complex Reflectance Ratio</h3>
@@ -85,13 +111,13 @@ math: true
   <div class="formula-block">
     $$\rho(\lambda,\theta) = \frac{r_p}{r_s} = \tan\Psi \cdot e^{i\Delta}$$
   </div>
-  <p>where $r_p$ and $r_s$ are Fresnel coefficients. For a single film of thickness $d$ and index $\tilde{n}_f = n_f + i k_f$:</p>
+  <p>For a single film of thickness $d$ and complex refractive index $\tilde{n}_f = n_f + i k_f$:</p>
   <div class="formula-block">
     $$r_{p,s} = \frac{r_{01}^{p,s} + r_{12}^{p,s} e^{2i\beta}}{1 + r_{01}^{p,s} r_{12}^{p,s} e^{2i\beta}}, \quad \beta = \frac{2\pi}{\lambda} \tilde{n}_f d \cos\theta_f$$
   </div>
 
   <h3>2. Dispersion Models</h3>
-  <p>A causal dielectric function $\varepsilon(\omega) = \varepsilon_1 + i\varepsilon_2$ is parameterized. After regression:</p>
+  <p>A causal dielectric function $\varepsilon(\omega) = \varepsilon_1 + i\varepsilon_2$ is parameterized. After regression, the optical constants are retrieved:</p>
   <div class="formula-block">
     $$n = \sqrt{\frac{|\varepsilon|+\varepsilon_1}{2}}, \quad k = \sqrt{\frac{|\varepsilon|-\varepsilon_1}{2}}$$
   </div>
@@ -108,11 +134,11 @@ math: true
 </div>
 
 <div class="post-card">
-  <h2 class="post-title">🔹 Automated Testing & XRR Fitting Scripts</h2>
-  <p><strong>[Jan 2026]</strong> Sharing Python scripts for automated impedance measurements and X-ray reflectivity (XRR) fitting.</p>
-  <p>The XRR fitting is based on a Parratt-type reflectivity model, extracting electron density, thickness, and roughness:</p>
+  <h2 class="post-title">🔹 Automated Testing & XRR Fitting</h2>
+  <p><strong>Jan 2026</strong> — Sharing Python scripts for automated impedance measurements and X-ray reflectivity (XRR) fitting.</p>
+  <p>The XRR fitting extracts electron density, thickness, and roughness using a Parratt-type model:</p>
   <div class="formula-block">
     $$R = \left| \frac{r_{01} + r_{12} e^{2ik_{z1}t_1}}{1 + r_{01}r_{12} e^{2ik_{z1}t_1}} \right|^2$$
   </div>
-  <p><em>(Full code available in the repository)</em></p>
+  <p>These tools represent my practical workflow for structural and electrical characterization of thin-film materials.</p>
 </div>
