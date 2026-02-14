@@ -258,3 +258,66 @@ This closes an important chapter. I am now exploring postdoctoral and industry o
   ```
 
 
+
+---
+
+## 🔹 Spectroscopic Ellipsometry Modeling and Optical Parameter Extraction of VO₂ Thin Films
+
+Sharing the basic principles of fitting optical parameters after measuring VO₂ thin films using spectroscopic ellipsometry.
+
+下面是去掉公式编号（索引）后的整理版本，其余内容保持不变，便于直接粘贴使用。
+
+### Spectroscopic Ellipsometry (SE)
+
+Ellipsometry determines the complex reflectance ratio
+$$
+\rho(\lambda,\theta)=\frac{r_p}{r_s}=\tan\Psi e^{i\Delta}
+$$
+where $r_p$ and $r_s$ are the Fresnel reflection coefficients for p- and s-polarized light at incidence angle $\theta$ and wavelength $\lambda$. The ellipsometric parameters $\Psi$ and $\Delta$ represent the amplitude ratio and phase difference, respectively.
+
+For a stratified stack (ambient/film/substrate), $r_{p,s}$ are computed using the characteristic-matrix (transfer-matrix) formalism. For a single film of thickness $d$ and complex refractive index $\tilde{n}_f = n_f + i k_f$ on a substrate of $\tilde{n}_s$,
+$$
+r_{p,s}= \frac{r_{01}^{p,s}+r_{12}^{p,s} e^{2i\beta}}{1+r_{01}^{p,s} r_{12}^{p,s} e^{2i\beta}}, \qquad \beta=\frac{2\pi}{\lambda}\tilde{n}_f d \cos\theta_f
+$$
+where $\theta_f$ is the refracted angle in the film given by Snell’s law, and $r_{ij}^{p,s}$ are the Fresnel coefficients at interface $i-j$.
+
+Measured spectra $\{\Psi(\lambda),\Delta(\lambda)\}$ are regressed against model spectra by minimizing a weighted least-squares merit function
+$$
+\chi^2=\sum_i w_i \left[ (\Psi_i-\Psi_i^{\mathrm{mod}})^2 + (\Delta_i-\Delta_i^{\mathrm{mod}})^2 \right]
+$$
+
+### Dispersion Models and Retrieval of $n, k$
+
+SE does not invert $n$ and $k$ directly. Instead, a causal dielectric function
+$$
+\varepsilon(\omega)=\varepsilon_1+i\varepsilon_2
+$$
+is parameterized and fitted to the measured spectra. After regression,
+$$
+|\varepsilon|=\sqrt{\varepsilon_1^2+\varepsilon_2^2}, \qquad n=\sqrt{\frac{|\varepsilon|+\varepsilon_1}{2}}, \qquad k=\sqrt{\frac{|\varepsilon|-\varepsilon_1}{2}}
+$$
+
+#### Insulating M1-VO₂: Tauc–Lorentz Model
+$$
+\varepsilon_2^{\mathrm{TL}}(E)= \begin{cases} \dfrac{A C E_0 (E-E_g)^2}{E\left[(E^2-E_0^2)^2+C^2E^2\right]}, & E>E_g \\ 0, & E\le E_g \end{cases}
+$$
+with $\varepsilon_1(E)$ obtained by Kramers–Kronig integration.
+
+#### Metallic R-VO₂: Drude + Lorentz Model
+$$
+\varepsilon(\omega)= \varepsilon_\infty - \frac{\omega_p^2}{\omega(\omega+i\gamma)} + \sum_j \frac{A_j E_j^2}{E_j^2-\omega^2-i\Gamma_j \omega}
+$$
+
+### Band Gap Extraction
+$$
+\alpha(E)=\frac{4\pi k}{\lambda}
+$$
+Construct a Tauc plot of
+$$
+(\alpha E)^{1/m} \text{ vs } E
+$$
+where:
+- $m=2$ for indirect-like transitions
+- $m=1/2$ for direct-like transitions
+
+Linear extrapolation to zero yields $E_g$.
