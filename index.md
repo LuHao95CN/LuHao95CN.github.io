@@ -271,7 +271,7 @@ Sharing the basic principles of fitting optical parameters after measuring VO₂
 
 Ellipsometry determines the complex reflectance ratio
 $$
-\rho(\lambda,\theta)=\frac{r_p}{r_s}=\tan\Psi e^{i\Delta}
+\rho(\lambda,\theta)=\frac{r_p}{r_s}=\tan\Psi \cdot e^{i\Delta}
 $$
 where $r_p$ and $r_s$ are the Fresnel reflection coefficients for p- and s-polarized light at incidence angle $\theta$ and wavelength $\lambda$. The ellipsometric parameters $\Psi$ and $\Delta$ represent the amplitude ratio and phase difference, respectively.
 
@@ -305,7 +305,7 @@ with $\varepsilon_1(E)$ obtained by Kramers–Kronig integration.
 
 #### Metallic R-VO₂: Drude + Lorentz Model
 $$
-\varepsilon(\omega)= \varepsilon_\infty - \frac{\omega_p^2}{\omega(\omega+i\gamma)} + \sum_j \frac{A_j E_j^2}{E_j^2-\omega^2-i\Gamma_j \omega}
+\varepsilon(\omega)= \varepsilon_\infty - \frac{\omega_p^2}{\omega(\omega+i\gamma)} + \sum_j \frac{A_j E_j^2}{E_j^2-\omega^2-i\Gamma_j \omega} \tag{Metallic R-VO₂}
 $$
 
 ### Band Gap Extraction
