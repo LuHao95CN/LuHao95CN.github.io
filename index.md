@@ -273,12 +273,6 @@ math: true
   </ul>
 
   <hr>
-
-  <h3>Optional reading / references</h3>
-  <ul>
-    <li>A. Rogalski, “Recent progress in infrared detector technologies,” <em>Prog. Quant. Electron.</em> (2011).</li>
-    <li>Representative discussions of uncooled microbolometer temperature dependence and correction strategies can be found in the optical engineering literature.</li>
-  </ul>
 </div>
 
 ---
