@@ -61,6 +61,21 @@ math: true
 </style>
 
 
+
+<div class="post-card">
+  <h2 class="post-title">🔹 Why Enhance TCR?</h2>
+  <div class="post-date">Feb 23, 2026</div>
+  <p>Recently, I revised a manuscript for a student whose work focused on enhancing the temperature coefficient of resistance (TCR) in VO2 thin films. While numerous studies report improved TCR values, surprisingly few explicitly explain why increasing TCR is fundamentally important. This post addresses that question from a system-level perspective.</p>
+  <hr>
+  <h3>Why TCR Matters in Uncooled Infrared Detectors</h3>
+  <p>In uncooled thermal imaging systems, performance is not determined by a single parameter but by a fundamental system-level trade-off between sensitivity and response speed. Sensitivity is quantified by the noise-equivalent temperature difference (NETD), while response speed is characterized by the thermal time constant.</p>
+  <p>For microbolometers, this trade-off is governed by pixel thermal parameters. The thermal conductance Gth couples the absorber to the heat sink, and the thermal capacitance Cth defines the thermal inertia of the pixel. They are related by tau = Cth / Gth.</p>
+  <p>Reducing Gth increases the temperature rise for a given absorbed optical power, thereby enhancing electrical responsivity. However, this simultaneously increases tau and slows the detector’s temporal response.</p>
+  <hr>
+  <h3>The Core Answer</h3>
+  <p>Enhancing TCR does not merely improve a material parameter. It shifts the entire system-level trade-off. Unlike reducing Gth, increasing TCR improves electrical responsivity without inherently slowing the detector. It therefore represents one of the few remaining effective pathways to push microbolometer performance beyond current constraints.</p>
+  <p>That is why enhancing TCR matters.</p>
+</div>
 <div class="post-card">
   <h2 class="post-title">🔹 Microbolometers 101: Core MEMS Parameters, TCR/NETD Derivations, and What VO₂ Hysteresis Would Do to an IR Image</h2>
   <div class="post-date">Feb 18, 2026</div>
