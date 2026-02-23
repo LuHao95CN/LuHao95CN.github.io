@@ -66,6 +66,10 @@ math: true
 <div class="post-card">
   <h2 class="post-title">🔹 Why Enhance TCR?</h2>
   <div class="post-date">Feb 23, 2026</div>
+  <div style="text-align: center; margin: 24px 0;">
+    <img src="/assets/img/why-enhance-tcr.png" alt="Higher TCR Improves Infrared Detection Performance" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  </div>
+
   <p>Recently, I revised a manuscript for a student whose work focused on enhancing the temperature coefficient of resistance (TCR) in VO₂ thin films. While numerous studies report improved TCR values, surprisingly few explicitly explain why increasing TCR is fundamentally important. This post addresses that question from a system-level perspective.</p>
   <hr>
   <h3>Why TCR Matters in Uncooled Infrared Detectors</h3>
