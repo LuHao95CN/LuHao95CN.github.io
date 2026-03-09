@@ -92,30 +92,7 @@ math: true
 
   <hr>
 
-  <h3>2. Why VO₂ is attractive</h3>
-  <h4>It is a solid–solid phase-transition material</h4>
-  <p>This is probably the most obvious advantage. Unlike paraffin or salt-hydrate phase-change materials, VO₂ does not melt and does not flow. It stays solid throughout the transition. That makes it far easier to integrate into thin-film stacks, patterned islands, or device interposers without worrying about leakage or liquid encapsulation.</p>
-  <p>For microscale thermal management, this is a major advantage.</p>
-
-  <h4>It is naturally compatible with thin-film processing</h4>
-  <p>VO₂ can be grown as a thin film and incorporated into multilayer device stacks. This is essential for hotspot applications, because the active thermal buffer must sit very close to the heat source. A bulky PCM block is often useless at that scale; a thin, localized solid-state layer is much more realistic.</p>
-
-  <h4>Its transition can be engineered</h4>
-  <p>The transition temperature of VO₂ is close to 68 °C in bulk-like material, but in practice it can be shifted by strain, defects, thickness, and doping. This matters because a thermal buffer is only useful if its transition window overlaps with the operating temperature range of the device.</p>
-  <p>A hotspot buffer that transitions too early or too late is not doing the job you want.</p>
-
-  <h4>It is multifunctional</h4>
-  <p>VO₂ is not only thermally active. Its electrical resistance and optical properties also change strongly across the transition. This means that the same layer can, in principle, do several jobs at once:</p>
-  <ul>
-    <li>buffer transient heat,</li>
-    <li>sense local temperature or phase state,</li>
-    <li>trigger an electrical or optical protection response.</li>
-  </ul>
-  <p>This multifunctionality is one of the strongest arguments in favor of VO₂.</p>
-
-  <hr>
-
-  <h3>3. Where the real limitation comes from</h3>
+  <h3>2. Where the real limitation comes from</h3>
   <p>The most important limitation is not that VO₂ “does not work.” The real limitation is that its <strong>active volume is usually very small</strong>.</p>
   <p>A simple energy estimate is:</p>
   <div class="formula-block">
@@ -133,7 +110,7 @@ math: true
 
   <hr>
 
-  <h3>4. The biggest engineering difficulty: interfaces</h3>
+  <h3>3. The biggest engineering difficulty: interfaces</h3>
   <p>Even if VO₂ has a useful transition enthalpy, the benefit can disappear if heat does not reach it efficiently.</p>
   <p>In a real device, the thermal path is something like:</p>
   <p><strong>hotspot → interface layer → VO₂ → substrate → heat spreader → sink</strong></p>
@@ -149,7 +126,7 @@ math: true
 
   <hr>
 
-  <h3>5. Hysteresis: both a feature and a problem</h3>
+  <h3>4. Hysteresis: both a feature and a problem</h3>
   <p>VO₂ is a first-order transition material, so hysteresis is expected. This means the heating and cooling paths are different. From a practical point of view, this has two consequences.</p>
   <p>First, the trigger temperature is not unique. The phase state depends on thermal history, not just on the instantaneous temperature.</p>
   <p>Second, the reset process matters. A reversible thermal buffer only works repeatedly if the material can return to its initial phase state between heat pulses. If the system never cools sufficiently below the reverse transition, then the next pulse starts from the wrong state and the apparent buffering effect weakens.</p>
@@ -157,7 +134,7 @@ math: true
 
   <hr>
 
-  <h3>6. What VO₂ is good for—and what it is not</h3>
+  <h3>5. What VO₂ is good for—and what it is not</h3>
   <p>VO₂ is good for:</p>
   <ul>
     <li>suppressing short transient temperature spikes,</li>
@@ -176,7 +153,7 @@ math: true
 
   <hr>
 
-  <h3>7. A more realistic way to think about VO₂</h3>
+  <h3>6. A more realistic way to think about VO₂</h3>
   <p>I think the best way to describe VO₂ in this context is not as a “cooling material,” but as a <strong>transition-enabled thermal shock absorber</strong>.</p>
   <p>It does not remove heat on its own. It does not replace a heat sink. What it can do is soften a thermal transient, buy time, and reduce the peak stress seen by a microscale device region. In well-designed stacks, that can be very valuable.</p>
   <p>The most promising architecture is therefore not “VO₂ alone,” but something like:</p>
@@ -185,28 +162,8 @@ math: true
 
   <hr>
 
-  <h3>Final thoughts</h3>
-  <p>VO₂ has genuine advantages for microscale reversible thermal buffering:</p>
-  <ul>
-    <li>it is solid-state,</li>
-    <li>microfabrication-friendly,</li>
-    <li>tunable,</li>
-    <li>multifunctional,</li>
-    <li>and naturally suited for local transient thermal regulation.</li>
-  </ul>
-  <p>At the same time, its weaknesses are also clear:</p>
-  <ul>
-    <li>the active energy capacity of thin films is limited,</li>
-    <li>hysteresis complicates repeatability,</li>
-    <li>and poor thermal interfaces can completely hide the expected effect.</li>
-  </ul>
-  <p>So the right conclusion is neither “VO₂ is a miracle thermal material” nor “VO₂ is useless for thermal management.” The more accurate statement is this:</p>
-  <div class="formula-block" style="text-align:left; font-style: italic;">
-    <strong>VO₂ is a specialized material for localized, transient, reversible thermal buffering near a designed transition window. Its value is highest when integrated close to a hotspot and combined with an efficient heat-spreading pathway.</strong>
-  </div>
-  <p>That is where VO₂ becomes genuinely interesting.</p>
+  <p><strong>In short:</strong> VO₂ is most compelling as a localized, transient, reversible thermal buffer near microscale hotspots, especially when integrated with low-resistance interfaces and an efficient heat-spreading path.</p>
 </div>
-
 
 
 <div class="post-card">
