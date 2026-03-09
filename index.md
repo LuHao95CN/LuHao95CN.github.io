@@ -63,7 +63,7 @@ math: true
 
 
 <div class="post-card">
-  <h2 class="post-title">🔹 Why VO₂ Shows Thermal Hysteresis: A Landau Free-Energy View (and Why Metallic Doping Narrows It)</h2>
+  <h2 class="post-title">🔹 Why VO₂ Shows Thermal Hysteresis and Why Metallic Doping Suppresses It: A Landau Free-Energy View </h2>
   <div class="post-date">Feb 23, 2026</div>
 
   <p>VO₂ is famous for its metal–insulator transition (MIT) near room temperature, accompanied by a structural transformation (rutile R ↔ monoclinic M1). One experimental hallmark is <strong>thermal hysteresis</strong>: the transition temperature upon heating differs from that upon cooling. In this post, I summarize a compact <strong>Landau free-energy</strong> explanation for (i) why hysteresis appears at all, and (ii) why <strong>metallic doping</strong> (W, Mo, Nb, Ru, etc.) often <strong>reduces the hysteresis width</strong>.</p>
