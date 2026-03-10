@@ -1,0 +1,2 @@
+{% assign _description = include.post.description | default: include.post.excerpt %}
+{{ _description | markdownify | strip_html | strip_newlines | truncate: 200 }}
