@@ -25,3 +25,26 @@
   object-position: center bottom !important;
   background-color: transparent;
 }
+
+
+.formula-block {
+  background: #f8fafc;
+  padding: 24px;
+  border-radius: 12px;
+  margin: 24px 0;
+  overflow-x: auto;
+  border-left: 4px solid #1e3a8a;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.post-date {
+  display: inline-block;
+  background: #eff6ff;
+  color: #2563eb;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
