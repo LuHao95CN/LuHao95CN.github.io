@@ -8,9 +8,11 @@ order: 1
 
 ## Research Interests
 
-- Phase transitions in functional oxides (VO₂, ZnO, Ga₂O₃)  
+- Phase transitions in functional oxides (VO₂, ZnO, Ga₂O₃ etc.)
+- 2D materials 
+- Heterostructures
 - Metal–insulator transitions and electronic correlations  
-- Thin film growth and characterization (XRD, Raman, SEM, XPS)  
+- Thin film growth and characterization (XRD, Raman, SEM, XPS etc.)  
 - Bandgap engineering and optical/electronic property tuning  
 - MEMS (Micro-Electro-Mechanical Systems)  
 - Brain-Computer Interface (BCI)  
