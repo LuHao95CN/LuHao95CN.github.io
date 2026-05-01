@@ -148,6 +148,8 @@ In the following images, I show practical examples of what this method can achie
   <a href="/assets/assets/20260501135235_35_29.jpg" target="_blank"><img src="/assets/assets/20260501135235_35_29.jpg" alt="Laser microstructure 20260501135235_35_29" style="width:100%;height:120px;object-fit:cover;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.12);"></a>
 </div>
 
+---
+
 We welcome collaborations with researchers and partners interested in laser direct writing, micro-scale structure fabrication, and functional materials.
 
 Our work is based at the **Institute of Experimental Physics I** and the **Center for Materials Research (ZfM)**, **Justus Liebig University Giessen**.
